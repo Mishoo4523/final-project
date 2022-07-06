@@ -1,26 +1,27 @@
-import React from 'react'
+import React from 'react';
+import './CreatPost.css';
+
 
 function CreatPost() {
   return (
-    <div className="card">
+    <div className="card create-post-container">
 
       <input type="text" placeholder="post title"/>
       <input type="text" placeholder="post content"/>
 
       <div className="file-field input-field">
-      <div className ="btn">
-        <span>File</span>
+        <div className ="btn #64b5f6 blue darken-1 ">
+        <span>Upload Image</span>
         <input type="file" / >
       </div>
-      <div classame="file-path-wrapper">
-        <input className="file-path validate" type="text" / >
+      <div className="file-path-wrapper">
+        <input className="file-path validate" type="text" />
       </div>
     </div>
+    <button class="btn waves-effect waves-light btn-large #64b5f6 blue darken-1 ">Submit Post</button>
 
+</div>
 
-
-
-    </div>
   )
 }
 

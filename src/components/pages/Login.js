@@ -13,7 +13,7 @@ function Login() {
     type="password"
         placeholder="Password"
         />
-        <button class="btn waves-effect waves-light btn-large #64b5f6 blue lighten-2 ">Login</button>
+        <button class="btn waves-effect waves-light btn-large #64b5f6 blue darken-1  ">Login</button>
         <h6> 
           < Link to="/Signup" > Don't Alredy have an account? </Link>
 

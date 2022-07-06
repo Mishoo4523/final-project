@@ -19,7 +19,7 @@ function Signup() {
     type="password"
         placeholder="Password"
         />
-        <button class="btn waves-effect waves-light btn-large #64b5f6 blue lighten-2 ">Signup</button>
+        <button class="btn waves-effect waves-light btn-large #64b5f6 blue darken-1  ">Signup</button>
 
           <h6> 
           < Link to="/login" > Don't  Alredy have an account? </Link>
@@ -30,4 +30,4 @@ function Signup() {
   )  
 }
 
-export default Signup;
+export default Signup
