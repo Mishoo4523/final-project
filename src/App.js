@@ -6,7 +6,7 @@ import Home from "./components/pages/Home";
 import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup";
 import Profile from "./components/pages/Profile";
-import CreatPost from "./pages/Creapost";
+import CreatPost from "./components/pages/CreatPost";
 import './App.css';
 
 
@@ -23,12 +23,12 @@ function App() {
         <Route path="/login" exact element={<Login />} />
         <Route path="/Signup" exact element={<Signup />} />
         <Route path="/Profile" exact element={<Profile />} />
-        <Route path="/creat-post" exact element={<CreatPost />} /> 
+        <Route path="/create-post" exact element={<CreatPost />} />
 
 
         {/* catch-all 404 page */}
 
-    <Route path="*"  element={<page404 />}/>
+   <Route path="*"  element={<page404 />}/>
         
     </Routes>
 
