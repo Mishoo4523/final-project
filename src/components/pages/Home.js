@@ -16,7 +16,7 @@ function Home() {
         </div>
         <div className="card-content">
 
-           <i class="material-icons" style={{color:"red"}}>favorite</i>
+           <i className="material-icons" style={{color:"red"}}>favorite</i>
           <h6>Post Title</h6>
           <p>Welcome to the world of Insta-Seeds</p>
           <input tpe="text"  placeholder="Enter comment" />
@@ -36,7 +36,7 @@ function Home() {
 </div>
 <div className="card-content">
 
-   <i class="material-icons" style={{color:"red"}}>favorite</i>
+   <i className="material-icons" style={{color:"red"}}>favorite</i>
   <h6>Post Title</h6>
   <p>Welcome to the world of Insta-Seeds</p>
   <input tpe="text"  placeholder="Enter comment" />
@@ -55,7 +55,7 @@ function Home() {
 </div>
 <div className="card-content">
 
-   <i class="material-icons" style={{color:"red"}}>favorite</i>
+   <i className="material-icons" style={{color:"red"}}>favorite</i>
   <h6>Post Title</h6>
   <p>Welcome to the world of Insta-Seeds</p>
   <input tpe="text"  placeholder="Enter comment" />

@@ -1,9 +1,27 @@
 import React from 'react'
 
-function ;() {
+function CreatPost() {
   return (
-    <div>;</div>
+    <div className="card">
+
+      <input type="text" placeholder="post title"/>
+      <input type="text" placeholder="post content"/>
+
+      <div className="file-field input-field">
+      <div className ="btn">
+        <span>File</span>
+        <input type="file" / >
+      </div>
+      <div classame="file-path-wrapper">
+        <input className="file-path validate" type="text" / >
+      </div>
+    </div>
+
+
+
+
+    </div>
   )
 }
 
-export default ;
+export default CreatPost
